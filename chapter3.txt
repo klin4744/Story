@@ -1,0 +1,14 @@
+//////////////////////////////
+// Version Control with Git //
+//////////////////////////////
+1. In the project directory, first initialize git with your terminal by typing git init. This creates a hidden git
+folder that tracks changes. You will not see this folder in explorer but you can see it by typing "ls -a" in your terminal.
+
+
+2. To keep track of changes of files in our directory, we must add the file to our staging directory. We can track files
+that git is monitoring using the "git status" command. Any file that is green is being tracked by git. To add a file to
+the staging directory, we must type "add filename.fileextension" 
+
+3. When your files are added to the staging area, you can make a commit by typing "$git commit -m "commit message"".
+NOTE: It is best practice to write your commit message in present tense, and for all projects these messages should
+be somewhat thoughful so if you have to rollback, you'll know exactly where you should roll back to.
